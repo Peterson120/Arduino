@@ -1,0 +1,136 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object Tracking Robot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peterson Guo
+
+
+June 5, 2022
+
+
+
+Introduction
+In this project, an ultrasonic distance sensor and two ir sensors work with a robot that has two motors to follow a human. It also contains an LCD to display sensor readings, a button to cycle between the sensor data, and a potentiometer to adjust the contrast of the LCD. The IR sensors emit infrared radiation which will reflect off objects. The receiver will then be able to receive this reflected radiation and determine whether an object is in front of the robot. Two IR sensors are used on the left and right side of the robot to determine which direction the robot should turn. Ultrasonic sensors are also used in this project to gauge the distance between the human and the robot. IR sensors have a very limited range since infrared radiation has a short wavelength. Thus, the ultrasonic sensor can be used to maintain the perfect distance for the IR sensors to be within working range and for the robot to be out of the human’s walking space. This robot also takes advantage of two motors and a motor shield. The motor shield controls the motors of the robot and the motors will allow the robot to turn, move forward, and move backward.
+
+Component List
+Component #
+Component
+Value
+Quantity
+1
+Arduino Motor Shield
+
+
+1
+2
+Arduino Uno
+
+
+1
+3
+Resistor
+1kΩ
+1
+4
+Resistor
+220Ω
+1
+5
+Ultrasonic Sensor
+
+
+1
+6
+Buzzer
+
+
+1
+7
+DC Motors
+
+
+2
+8
+Mini Breadboard
+
+
+1
+9
+Jumper wires
+
+
+40
+10
+Chassis
+
+
+1
+11
+Wheels
+
+
+2
+12
+IR Sensors
+
+
+2
+13
+Battery
+9V
+2
+14
+LCD
+
+
+1
+15
+Potentiometer
+
+
+1
+16
+Button
+
+
+1
+
+Circuit Diagram
+
+Control Systems Diagram
+
+
+Photo of Finished Project
+
